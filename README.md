@@ -25,7 +25,7 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](ht
 
 ## 📦 Download
 
-Head over to the [**Releases**](https://github.com/Arifmaulanaazis/Gromacs-2025.1-Prebuild-Windows/releases) section to download the latest prebuilt binaries.
+Head over to the [**Releases**](https://github.com/Arifmaulanaazis/Gromacs-Prebuild-Windows/releases) section to download the latest prebuilt binaries.
 
 > ⚠️ Make sure to download the correct archive for your system.
 
