@@ -1,10 +1,10 @@
-# GROMACS 2025.1 Prebuilt (Windows, CUDA GPU Support)
+# GROMACS 2025.2 Prebuilt (Windows, CUDA GPU Support)
 
-This repository provides a **precompiled Windows binary** of [GROMACS 2025.1](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
+This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
 
 ## ✅ Features
 
-- **Version:** GROMACS 2025.1
+- **Version:** GROMACS 2025.2
 - **OS:** Windows 64-bit
 - **GPU Acceleration:** CUDA 12.1
 - **Compatible GPU Architectures:**
