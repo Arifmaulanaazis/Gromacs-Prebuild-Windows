@@ -6,7 +6,7 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](ht
 
 - **Version:** GROMACS 2025.2
 - **OS:** Windows 64-bit
-- **GPU Acceleration:** CUDA 12.1
+- **GPU Acceleration:** CUDA 12.9
 - **Compatible GPU Architectures:**
 
   | CUDA Architecture | Code Name       | Example GPU                        |
@@ -17,10 +17,12 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](ht
   | `sm_86`           | Ampere          | RTX 3060, RTX 3070 Ti              |
   | `sm_89`           | Ada Lovelace    | RTX 4090, RTX 4080                 |
   | `sm_90`           | Hopper          | H100, GH200                        |
+  | `sm_100`          | Blackwell       | GB200, B200                        |
+  | `sm_120`          | Blackwell       | RTX PRO Series, RTX 50** Series    |
 
 - **Built using:**
   - Visual Studio 17 2022
-  - CUDA Toolkit 12.1
+  - CUDA Toolkit 12.9
   - FFTW 3.3.5 (dll64)
 
 ## 📦 Download
