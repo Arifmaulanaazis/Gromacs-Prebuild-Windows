@@ -1,17 +1,16 @@
-# GROMACS 2025.2 Prebuilt (Windows, CUDA GPU Support)
+# GROMACS 2025.3 Prebuilt (Windows, CUDA GPU Support)
 
-This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
+This repository provides a **precompiled Windows binary** of [GROMACS 2025.3](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
 
 ## ✅ Features
 
-- **Version:** GROMACS 2025.2
+- **Version:** GROMACS 2025.3
 - **OS:** Windows 64-bit
 - **GPU Acceleration:** CUDA 12.9
 - **Compatible GPU Architectures:**
 
   | CUDA Architecture | Code Name       | Example GPU                        |
   |-------------------|-----------------|------------------------------------|
-  | `sm_70`           | Volta           | Tesla V100, Quadro GV100           |
   | `sm_75`           | Turing          | RTX 2080 Ti, RTX 2060              |
   | `sm_80`           | Ampere          | A100, RTX 3080, RTX 3090           |
   | `sm_86`           | Ampere          | RTX 3060, RTX 3070 Ti              |
@@ -22,7 +21,7 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2025.2](ht
 
 - **Built using:**
   - Visual Studio 17 2022
-  - CUDA Toolkit 12.9
+  - CUDA Toolkit 13.0
   - FFTW 3.3.5 (dll64)
 
 ## 📦 Download
