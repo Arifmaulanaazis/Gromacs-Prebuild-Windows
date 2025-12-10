@@ -81,7 +81,7 @@ Check the output for confirmation of CUDA support and active GPU acceleration.
 
 ## 📌 Additional Notes
 
-- **Driver Requirements:** Ensure you have the latest NVIDIA drivers installed that are compatible with CUDA 12.1.
+- **Driver Requirements:** Ensure you have the latest NVIDIA drivers installed that are compatible with CUDA 13.0.
 - **Environment Setup:** The `GMXRC.bat` file sets the necessary `PATH` for the current session. For permanent configuration, consider adding the `bin/` directory to your system `PATH`.
 
 ---
