@@ -1,12 +1,12 @@
-# GROMACS 2025.3 Prebuilt (Windows, CUDA GPU Support)
+# GROMACS 2025.4 Prebuilt (Windows, CUDA GPU Support)
 
-This repository provides a **precompiled Windows binary** of [GROMACS 2025.3](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
+This repository provides a **precompiled Windows binary** of [GROMACS 2025.4](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
 
 ## ✅ Features
 
-- **Version:** GROMACS 2025.3
+- **Version:** GROMACS 2025.4
 - **OS:** Windows 64-bit
-- **GPU Acceleration:** CUDA 12.9
+- **GPU Acceleration:** CUDA 13.0
 - **Compatible GPU Architectures:**
 
   | CUDA Architecture | Code Name       | Example GPU                        |
@@ -18,9 +18,11 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2025.3](ht
   | `sm_90`           | Hopper          | H100, GH200                        |
   | `sm_100`          | Blackwell       | GB200, B200                        |
   | `sm_120`          | Blackwell       | RTX PRO Series, RTX 50** Series    |
+  | `sm_121`          | Blackwell       | NVIDIA GB10 (DGX Spark)            |
 
 - **Built using:**
   - Visual Studio 17 2022
+  - Ninja 1.13.2
   - CUDA Toolkit 13.0
   - FFTW 3.3.5 (dll64)
 
@@ -44,9 +46,6 @@ gmx/
 │   └── [other helper files, scripts, and autocompletion files]
 ├── include/
 │   └── gromacs/               # Header files for development
-├── lib/
-│   ├── muparser.lib
-│   └── cmake/                 # CMake configuration files
 ├── share/
 │   └── gromacs/
 │       ├── top/               # Force field and molecular data
