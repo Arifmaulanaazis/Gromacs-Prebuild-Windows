@@ -1,10 +1,10 @@
-# GROMACS 2025.4 Prebuilt (Windows, CUDA GPU Support)
+# GROMACS 2026.0 Prebuilt (Windows, CUDA GPU Support, AVX2_256 AND AVX512)
 
-This repository provides a **precompiled Windows binary** of [GROMACS 2025.4](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
+This repository provides a **precompiled Windows binary** of [GROMACS 2026.0](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
 
 ## ✅ Features
 
-- **Version:** GROMACS 2025.4
+- **Version:** GROMACS 2026.0
 - **OS:** Windows 64-bit
 - **GPU Acceleration:** CUDA 13.0
 - **Compatible GPU Architectures:**
@@ -41,7 +41,7 @@ gmx/
 ├── GMXRC.bat                   # Environment loader for Windows
 ├── bin/
 │   ├── gmx.exe                 # Main GROMACS executable
-│   ├── cufft64_11.dll          # CUDA FFT runtime
+│   ├── cufft64_12.dll          # CUDA FFT runtime
 │   ├── libfftw3f-3.dll         # FFTW runtime
 │   └── [other helper files, scripts, and autocompletion files]
 ├── include/
@@ -60,7 +60,7 @@ gmx/
    - This script automatically adds the `bin/` directory to your session `PATH`.
 3. **Test** the installation by opening a new Command Prompt and executing:
    ```bash
-   gmx -v
+   gmx --version
    ```
    You should see version information along with details about CUDA and GPU support.
 
