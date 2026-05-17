@@ -1,10 +1,10 @@
-# GROMACS 2026.1 Prebuilt (Windows, CUDA GPU Support, AVX2_256 AND AVX512)
+# GROMACS 2026.2 Prebuild (Windows, CUDA GPU Support, AVX2_256 AND AVX512)
 
-This repository provides a **precompiled Windows binary** of [GROMACS 2026.1](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
+This repository provides a **precompiled Windows binary** of [GROMACS 2026.2](https://www.gromacs.org/) with **CUDA GPU acceleration**. This build is intended for users who want to run GROMACS on Windows with NVIDIA GPUs, without the need to compile from source.
 
 ## ✅ Features
 
-- **Version:** GROMACS 2026.1
+- **Version:** GROMACS 2026.2
 - **OS:** Windows 64-bit
 - **GPU Acceleration:** CUDA 13.0
 - **Compatible GPU Architectures:**
@@ -28,13 +28,13 @@ This repository provides a **precompiled Windows binary** of [GROMACS 2026.1](ht
 
 ## 📦 Download
 
-Head over to the [**Releases**](https://github.com/Arifmaulanaazis/Gromacs-Prebuild-Windows/releases) section to download the latest prebuilt binaries.
+Head over to the [**Releases**](https://github.com/Arifmaulanaazis/Gromacs-Prebuild-Windows/releases) section to download the latest Prebuild binaries.
 
 > ⚠️ Make sure to download the correct archive for your system.
 
 ## 📁 Included Files
 
-The prebuilt archive is organized as follows:
+The Prebuild archive is organized as follows:
 
 ```
 gmx/
